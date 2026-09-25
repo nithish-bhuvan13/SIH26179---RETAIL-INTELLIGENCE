@@ -10,12 +10,12 @@ export type TeamMember = {
 };
 
 const rawTeam: TeamMember[] = [
-  { id: "nithish",  name: "Nithish Bhuvan K", department: "IT",           role: "Team Lead",  photo: "/media/team/nithish-bhuvan-k.jpg", linkedin: "" },
-  { id: "prakash",  name: "Prakash S",        department: "ECE",         role: "Team Member", photo: "/media/team/prakash-s.jpg",         linkedin: "" },
-  { id: "rajinsam", name: "Rajin Sam A",      department: "IT",          role: "Team Member", photo: "/media/team/rajin-sam-a.jpg",        linkedin: "" },
-  { id: "mohana",   name: "Mohana Chandra",   department: "ECE",         role: "Team Member", photo: "/media/team/mohana-chandra.jpg", linkedin: "" },
-  { id: "suvitha",  name: "Suvitha D",        department: "Cybersecurity",role: "Team Member", photo: "/media/team/suvitha-d.jpg", linkedin: "" },
-  { id: "arulkumar",name: "Arulkumar P",      department: "Cybersecurity", role: "Team Member", photo: "/media/team/arulkumar-p.jpg", linkedin: "" },
+  { id: "nithish",  name: "Nithish Bhuvan K", department: "IT",           role: "Team Lead",  photo: "/media/team/nithish.png", linkedin: "https://www.linkedin.com/in/nithish-bhuvan-13nov06/" },
+  { id: "prakash",  name: "Prakash S",        department: "ECE",         role: "Team Member", photo: "/media/team/prakash.png",         linkedin: "https://www.linkedin.com/in/prakash-sekar-30a74431b/" },
+  { id: "rajinsam", name: "Rajin Sam A",      department: "IT",          role: "Team Member", photo: "/media/team/rajin.png",        linkedin: "https://www.linkedin.com/in/rajin-sam/" },
+  { id: "mohana",   name: "Mohana Chandra",   department: "ECE",         role: "Team Member", photo: "/media/team/mohana.png", linkedin: "https://www.linkedin.com/in/mohana-b-4ba93a334" },
+  { id: "suvitha",  name: "Suvitha D",        department: "Cybersecurity",role: "Team Member", photo: "/media/team/suvith.png", linkedin: "https://www.linkedin.com/in/suvithadhamodaran" },
+  { id: "arulkumar",name: "Arulkumar P",      department: "Cybersecurity", role: "Team Member", photo: "/media/team/arulkumar.png", linkedin: "https://www.linkedin.com/in/arulkumar-p-118ba2362?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
 ];
 
 export const team: TeamMember[] = rawTeam.map((member) => {

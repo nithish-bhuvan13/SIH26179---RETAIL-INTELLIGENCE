@@ -13,7 +13,7 @@ const rawMentors: Mentor[] = [
     name: "Mr. K. Muthusamy",
     title: "Head - Technical Competitions and Hackathons",
     campus: "",
-    photo: "/media/mentors/muthusamy.jpg",
+    photo: "/media/mentors/muthusamy.png",
     linkedin: "https://www.linkedin.com/in/muthusamy-k-a7ba161b6/",
   },
   {
@@ -21,7 +21,7 @@ const rawMentors: Mentor[] = [
     name: "Er. Gajendran Parthasarathi",
     title: "Head - School of Design and Innovation",
     campus: "",
-    photo: "/media/mentors/gajendran.jpg",
+    photo: "/media/mentors/Gajendran.png",
     linkedin: "https://www.linkedin.com/in/er-gajendran-parthasarathi-9689a2109/",
   },
 ];
